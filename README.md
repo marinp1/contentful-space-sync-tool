@@ -4,6 +4,10 @@ A simple tool for copying content from a Contentful space to another. The conten
 
 Uses Contentful's [import](https://github.com/contentful/contentful-import) and [export](https://github.com/contentful/contentful-export) tools.
 
+Make sure that those are installed before running this tool:
+* npm install -g contentful-export
+* npm install -g contentful-import
+
 ## Configuration
 By default export includes drafts and also downloads assets, see export tool's documentation for available configuration options. Otherwise there's no additional configuration.
 
