@@ -1,6 +1,7 @@
 # contentful-space-sync-tool
 
-A simple tool for copying content from a Contentful space to another. The models and data from source space will be copied to target space, but the target space will not be completely cleared.
+A simple tool for copying content from a Contentful space to another. The content models and their data will be copied to target space and target space's data will be overwritten if a content model with same ID already exists, otherwise target space's data will be left unchanged.
+
 Uses Contentful's [import](https://github.com/contentful/contentful-import) and [export](https://github.com/contentful/contentful-export) tools.
 
 ## Configuration
