@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# Force script to be run from correct directory
+cd "$(dirname "$0")"
+
+# Load configuration
 . space.config
 
 rm -rf target

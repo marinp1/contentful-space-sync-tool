@@ -8,11 +8,9 @@ By default export includes drafts and also downloads assets, see export tool's d
 
 ## Instructions
 
-1. Clone repository
 1. Add space IDs and space content management tokens for source space and target space to space_template.config
 2. Rename space_template.config to space.config
-4. Open terminal at repository location
-3. Run ./sync_spaces.sh
+3. Execute sync_spaces.sh
 
 Export can be found from target folder, which will be cleared every time the utility is run.
 
