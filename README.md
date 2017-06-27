@@ -3,9 +3,6 @@
 A simple tool for copying content from a Contentful space to another, target space will be overwritten.
 Uses Contentful's [import](https://github.com/contentful/contentful-import) and [export](https://github.com/contentful/contentful-export) tools.
 
-## Configuration
-By default export includes drafts and also downloads assets, see export tool's documentation for available configuration options. Otherwise there's no additional configuration.
-
 ## Instructions
 
 1. Add space IDs and content management tokens for source space and target space to space_template.config
