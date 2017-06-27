@@ -21,7 +21,7 @@ INPUT_FILE=$2
 
 IMPORT_OPTIONS="
  --space-id $target_space_id 
- --management-token $management_token
+ --management-token $target_management_token
  --content-file $INPUT_FILE
 "
 

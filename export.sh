@@ -18,7 +18,7 @@ mkdir target
 
 EXPORT_OPTIONS="
  --space-id $source_space_id 
- --management-token $management_token
+ --management-token $source_management_token
  --export-dir target
  --skip-roles true
  --skip-webhooks true
